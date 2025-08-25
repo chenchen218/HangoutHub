@@ -17,7 +17,7 @@ export interface TravelItem {
 }
 
 // Your Google Places API key
-const API_KEY = "AIzaSyA4EPtsIogSoaI08dcs-S5dNQ5KK1aKPR0";
+const API_KEY = process.env.GOOGLE_PLACES_API_KEY;
 
 // Google Places API endpoints
 const GOOGLE_PLACES_BASE_URL = "https://maps.googleapis.com/maps/api/place";
